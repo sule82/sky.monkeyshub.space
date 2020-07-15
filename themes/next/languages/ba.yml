@@ -3,80 +3,80 @@ name: Bosanski
 title:
   archive: arhiva
   category: tema
-  tag: oblak
-  schedule: raspored
+  tag: oznaka
+  schedule: kalendar
 
 menu:
   home: prva.
   archives: lista članaka.
   categories: teme.
-  tags: oblak.
-  about: persona.
+  tags: oznake.
+  about: o autoru.
   search: pretraga.
-  schedule: raspored.
-  sitemap: mapa.
-  commonweal: uuups 404.
+  schedule: kalendar.
+  sitemap: mapa stranice.
+  commonweal: greška 404.
 
 sidebar:
-  overview: "ℹ info"
-  toc: "📋 sadržaj"
+  overview: informacije
+  toc: sadržaj
 
 post:
-  posted: "⤴ "
+  posted: objavljeno
   edited: uređeno
   created: pisano
-  modified: preuređemo
+  modified: dorađeno
   edit: uredi
-  in: "⤵ "
-  read_more: "👓 opširnije"
-  untitled: Banana
-  sticky: klizavo
+  in: u
+  read_more: opširnije
+  untitled: Bez naslova
+  sticky: istaknuto
   views: viđeno
-  related_posts: slično
+  related_posts: slični članci
   copyright:
     author: autor
-    link: kopiraj link.
+    link: kopiraj link
     license_title: licenca
-    license_content: "svi članci su pod %s, ukoliko drugačije nije navedeno."
+    license_content: "svi članci su pod %s, ukoliko nije drugačije navedeno."
 
 footer:
-  powered: "version = banana 0.0.7. | powered by %s"
+  powered: " | stranicu pokreće %s"
   total_views: suma pregleda
   total_visitors: suma posjeta
 
 counter:
   tag_cloud:
-    zero: bez oblaka
-    one: 1 oblak
-    other: "%d oblaka"
+    zero: bez oznake
+    one: jedna oznaka
+    other: "broj oznaka: %d"
 
   categories:
     zero: nema tema
-    one: 1 tema
-    other: "%d teme"
+    one: jedna tema
+    other: "broj tema: %d"
 
   archive_posts:
     zero: nema članka.
     one: 1 članak.
-    other: "%d članka."
+    other: "broj članka %d."
 
 state:
   posts: članaka.
-  tags: oblaka.
+  tags: oznaka.
   categories: tema.
 
 search:
-  placeholder: kreni unositi ...
+  placeholder: kreni unositi pojam za pretragu ...
 
 cheers:
   um: pih..
   ok: ok
   nice: fino
   good: dobro
-  great: ljepo
-  excellent: super
+  great: odlično
+  excellent: izvanredno
 
-keep_on: ...
+keep_on: nastavi pisati i objavljivati cool članke!
 
 symbol:
   comma: ", "
@@ -90,8 +90,8 @@ reward:
   paypal: PayPal
   bitcoin: Bitcoin
 
-follow_me:
-  welcome: Prati me.
+follow_me: pratite me na
+  welcome: dobrodošli!
 
 accessibility:
   nav_toggle: otvori prečice
@@ -103,4 +103,4 @@ symbols_count_time:
   count_total: ukupno znakova
   time: vrijeme čitanja
   time_total: ukupno vrijeme čitanja
-  time_minutes: minuta.
+  time_minutes: minute.
