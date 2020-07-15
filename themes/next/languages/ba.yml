@@ -58,7 +58,7 @@ counter:
   archive_posts:
     zero: nema članka.
     one: 1 članak.
-    other: "broj članka %d."
+    other: "broj članka: %d."
 
 state:
   posts: članaka.
