@@ -60,24 +60,24 @@ npm install hexo
 
 to install hexo and default theme to folder:
 
-```
+```bash
 hexo init <folder> 
 ```
 
-to specify config file instead using _config.yml:
+to specify config file instead using `_config.yml`:
 
 ```node
 hexo --config 
 ```
 
-to install node-modules from `packages.json:
+to install node-modules from `packages.json`:
 
 ```
 cd <folder>
 npm install //or yarn
 ```
 
-:sos: always handy:
+:sos: and... always handy:
 
 ```
 hexo --help
