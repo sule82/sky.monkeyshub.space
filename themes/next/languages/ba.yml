@@ -1,0 +1,106 @@
+name: Bosanski
+
+title:
+  archive: arhiva
+  category: tema
+  tag: oblak
+  schedule: raspored
+
+menu:
+  home: prva.
+  archives: lista članaka.
+  categories: teme.
+  tags: oblak.
+  about: persona.
+  search: pretraga.
+  schedule: raspored.
+  sitemap: mapa.
+  commonweal: uuups 404.
+
+sidebar:
+  overview: "ℹ info"
+  toc: "📋 sadržaj"
+
+post:
+  posted: "⤴ "
+  edited: uređeno
+  created: pisano
+  modified: preuređemo
+  edit: uredi
+  in: "⤵ "
+  read_more: "👓 opširnije"
+  untitled: Banana
+  sticky: klizavo
+  views: viđeno
+  related_posts: slično
+  copyright:
+    author: autor
+    link: kopiraj link.
+    license_title: licenca
+    license_content: "svi članci su pod %s, ukoliko drugačije nije navedeno."
+
+footer:
+  powered: "version = banana 0.0.7. | powered by %s"
+  total_views: suma pregleda
+  total_visitors: suma posjeta
+
+counter:
+  tag_cloud:
+    zero: bez oblaka
+    one: 1 oblak
+    other: "%d oblaka"
+
+  categories:
+    zero: nema tema
+    one: 1 tema
+    other: "%d teme"
+
+  archive_posts:
+    zero: nema članka.
+    one: 1 članak.
+    other: "%d članka."
+
+state:
+  posts: članaka.
+  tags: oblaka.
+  categories: tema.
+
+search:
+  placeholder: kreni unositi ...
+
+cheers:
+  um: pih..
+  ok: ok
+  nice: fino
+  good: dobro
+  great: ljepo
+  excellent: super
+
+keep_on: ...
+
+symbol:
+  comma: ", "
+  period: ". "
+  colon: ": "
+
+reward:
+  donate: baci na kafu
+  wechatpay: WeChat Pay
+  alipay: Alypay
+  paypal: PayPal
+  bitcoin: Bitcoin
+
+follow_me:
+  welcome: Prati me.
+
+accessibility:
+  nav_toggle: otvori prečice
+  prev_page: prethodna
+  next_page: naredna
+
+symbols_count_time:
+  count: broj znakova u članku
+  count_total: ukupno znakova
+  time: vrijeme čitanja
+  time_total: ukupno vrijeme čitanja
+  time_minutes: minuta.
