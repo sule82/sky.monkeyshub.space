@@ -43,11 +43,15 @@
 ```
 npm install --global hexo-cli
 ```
+
 or
+
 ```
 npx hexo-cli
 ```
+
 or for advanced usage:
+
 ```
 npm install hexo
 ```
@@ -55,18 +59,26 @@ npm install hexo
 *Basic commands:*
 
 to install hexo and default theme to folder:
+
 ```
 hexo init <folder> 
 ```
+
 to specify config file instead using _config.yml:
+
 ```node
 hexo --config 
 ```
+
 to install node-modules from `packages.json:
+
+```
 cd <folder>
 npm install //or yarn
 ```
+
 :sos: always handy:
+
 ```
 hexo --help
 ```
@@ -77,17 +89,19 @@ hexo --help
 ##### Installation and configuration
 
 
-```
+```bash
 cd <folder-where-u-init-hexo>
 git clone https://github.com/next-theme/hexo-theme-next themes/next
 ```
 
 Use your fav :pencil: editor to change `theme:[]` section in main `_config.yml`
 
+
 ```yml
 ## Themes: https://hexo.io/themes/
 theme: next
 ```
+
 
 Edit `_config.yml` in `themes/next/` folder as you prefer, more info on theme [repo](https://github.com/next-theme/hexo-theme-next).
 
