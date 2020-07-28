@@ -10,21 +10,20 @@ tags:
   - opensource
 ---
 
-# Urednik MD
-
+# Editor MD
 
 ## Open Source Markdown Editor
 
 Tekst editor, markdown format, napravljen iz potrebe istog <span role="img" aria-label="Fishzilla">🐟</span>.
 
-Browser <span role="img" aria-label="PCilla">💻</span> {% label warrning@Desktop  %} verziju možete pronaći na linku:
+Browser <span role="img" aria-label="PCzilla">💻</span> {% label warrning@Desktop  %} verziju možete pronaći i koristiti prema [Creative Common Attribution-NonCommercial-ShareAlike 4.0 internacionalnoj licenci](href="http://creativecommons.org/licenses/by-nc-sa/4.0/) na linku:
 
 <!--more-->
 
-{%  btn "https://shou.monkeyshub.space/urednik/", Urednik MD, "fa fa-pen fa-fw", "Editor MD"  %}
+{%  btn "https://static.monkeyshub.space/apps/editormd/", Urednik MD, "fa fa-pen fa-fw", "Editor MD"  %}
 
-<br />I slobodno koristiti, naravno.
+  <br /> {% label info@ne snima fajl na server %}
 
-##  Screenshot
+## Screenshot
 
-![Urednik MD](/fragments/images/urednik.jpg)
+![Urednik MD](https://static.monkeyshub.space/fragments/sky/urednik.jpg)
