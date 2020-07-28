@@ -22,7 +22,7 @@ Copy-Paste lista smajlića /emojis koje možete koristi sa većinom popularnih a
 
  GitHub, Textbox.io, JabbR, Trello, Hall, Zendesk, Slack, Hackpad, Cryptbin, Kato, Bitbucket, Gitter, YouTube, Habitica, Mattermost, Telegram, StackEdit, itd...
 
- Komplet lista *cheatsheet* hosted na mom serveru:  {% btn "https://shou.monkeyshub.space/smajlici/", Smajlići, fa fa-smile-wink fa-fw %}
+ Komplet lista *cheatsheet* hosted by Adnan Sulejmanovic (na mom serveru):  {% btn "https://static.monkeyshub.space/smajlici/", Smajlići, fa fa-smile-wink fa-fw %}
 
 
 <br />
@@ -40,7 +40,7 @@ Copy-Paste lista smajlića /emojis koje možete koristi sa većinom popularnih a
 
 {%  note info %}
 *Zašto?*
-Jer i sam volim da ih koristim u razne svrhe <span role="img" aria-label="emojis">:monkey:</span>
+Jer i sam volim da ih republiciram u kantone i dr. u razne svrhe <span role="img" aria-label="emojis">:monkey:</span>
 {%  endnote %}
 
-Po FOSS principu: {% label success@slobodno %} {% label info@(klikni & kopiraj) %} i koristi.
+Prema [Creative Common licenci](https://creativecommons.org/licenses/by-nc-sa/4.0/): {% label success@slobodno %} {% label info@(klikni & kopiraj) %} i koristi.
