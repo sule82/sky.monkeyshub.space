@@ -12,7 +12,7 @@ tags:
 
 # Retro Portfolio
 
-##  Galerija Starih Radovi
+## Galerija Starih Radovi
 
 Nekoliko starih radova, od mnogobrojnih rađenih, koje sam uspio pronaći diljem {% label info@www %} interneta.
 
@@ -23,31 +23,31 @@ Na moju žalost, nisam nikada napravio arhivu, pravi portfolio uradaka, ali neko
 U ovoj listi se nalaze web stranice, letak, bilboard i poster dizajni. Pretežno iz perioda zaposlenja u Wirac.Net, a neki čak iz 2010 godine.
 
 {% grouppicture 26-3 %}
-  ![](/fragments/retrofolio/after.jpg)
-  ![](/fragments/retrofolio/fering.jpg)
-  ![](/fragments/retrofolio/fta.jpg)
-  ![](/fragments/retrofolio/meplast.jpg)
-  ![](/fragments/retrofolio/sk.jpg)
-  ![](/fragments/retrofolio/zavod.jpg)
-  ![](/fragments/retrofolio/003retro.png)
-  ![](/fragments/retrofolio/004retro.jpg)
-  ![](/fragments/retrofolio/005retro.jpg)
-  ![](/fragments/retrofolio/010retro.jpg)
-  ![](/fragments/retrofolio/007retro.jpg)
-  ![](/fragments/retrofolio/008retro.jpg)
-  ![](/fragments/retrofolio/009retro.jpg)
-  ![](/fragments/retrofolio/006retro.jpg)
-  ![](/fragments/retrofolio/011retro.jpg)
-  ![](/fragments/retrofolio/012retro.jpg)
-  ![](/fragments/retrofolio/013retro.jpg)
-  ![](/fragments/retrofolio/020retro.png)
-  ![](/fragments/retrofolio/015retro.jpg)
-  ![](/fragments/retrofolio/021retro.jpg)
-  ![](/fragments/retrofolio/017retro.jpg)
-  ![](/fragments/retrofolio/018retro.jpg)
-  ![](/fragments/retrofolio/022retro.jpg)
-  ![](/fragments/retrofolio/014retro.jpg)
-  ![](/fragments/retrofolio/016retro.jpg)
-  ![](/fragments/retrofolio/019retro.jpg)
-  ![](/fragments/retrofolio/023retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/after.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/fering.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/fta.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/meplast.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/sk.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/zavod.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/003retro.png)
+![](https://static.monkeyshub.space/fragments/portfolio/004retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/005retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/010retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/007retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/008retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/009retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/006retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/011retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/012retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/013retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/020retro.png)
+![](https://static.monkeyshub.space/fragments/portfolio/015retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/021retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/017retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/018retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/022retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/014retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/016retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/019retro.jpg)
+![](https://static.monkeyshub.space/fragments/portfolio/023retro.jpg)
 {% endgrouppicture %}
