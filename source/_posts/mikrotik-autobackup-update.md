@@ -19,7 +19,7 @@ Skripta je namjenjena za dnevni, ili po izboru sedmični, mjesečni itd, backup 
 - instalacija samo patch na postojeću verziju (ako ograničite update na xx.xx.patch)
 - osnovne informacije o ruteru
 - sigurnosni triger: update neće biti pokrenut ako nije uspjelo slanje backup-a na mail
-- firmware upgrade (kraljevski 🐵)
+- firmware upgrade (kraljevski završetak 🐵)
 
 <!--more-->
 
