@@ -21,15 +21,14 @@ minify: true
 custom_file_path:
   #head: source/_data/head.njk
   #header: source/_data/header.njk
-  #sidebar: source/_data/sidebar.njk
+  sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
   #postBodyEnd: source/_data/post-body-end.njk
   footer: source/_data/footer.njk
   #bodyEnd: source/_data/body-end.njk
-  #variable: source/_data/variables.styl
+  variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
-
+  style: source/_data/styles.styl
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -37,9 +36,9 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
+  small: /images/favicon-16x16.png
+  medium: /images/favicon-32x32.png
+  apple_touch_icon: /images/apple-touch-icon.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
@@ -49,19 +48,19 @@ language_switcher: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 1982
 
   # Icon between year and copyright info.
   icon:
     # Icon name in Font Awesome. See: https://fontawesome.com/icons
-    name: fa fa-theater-masks
+    name: fa fa-rocket
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
     color: "#F9FEE1"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
-  copyright:
+  copyright: Adnan Sulejmanović
 
   # Powered by Hexo & NexT
   powered: true
@@ -84,10 +83,9 @@ footer:
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
   license: by-nc-sa
-  sidebar: true
-  post: true
+  sidebar: false
+  post: false
   language:
-
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -101,7 +99,6 @@ scheme: Gemini
 
 # Dark Mode
 darkmode: true
-
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -117,7 +114,7 @@ menu:
   about: /persona/ || fa fa-theater-masks
   #tags: /tags/ || fa fa-tags
   #categories: /teme/ || fa fa-scroll
-  archives: /arhiva/ || fa fa-scroll
+  archives: /constellations/ || fa fa-scroll
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -126,7 +123,6 @@ menu:
 menu_settings:
   icons: true
   badges: false
-
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -141,7 +137,7 @@ sidebar:
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
   # Pisces | Gemini: 240
-  width: 240
+  #width: 300
 
   # Sidebar Display (only for Muse | Mist), available values:
   #  - post    expand on posts automatically. Default.
@@ -151,16 +147,14 @@ sidebar:
   display: post
 
   # Sidebar padding in pixels.
-  padding: 15
+  padding: 18
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
-  offset: 20
-  # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: true
+  offset: 12
 
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /fragment/logo.svg
+  url: /images/logo.svg
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
@@ -196,13 +190,13 @@ social_icons:
 
 # Blog rolls
 links_settings:
-  icon: fa fa-link
+  icon: fa fa-globe
   title: Links
   # Available values: block | inline
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  #Doku: https://sky.monkeyshub.space/docs/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -211,7 +205,7 @@ toc:
   # Automatically add list number to toc.
   number: true
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: true
+  wrap: false
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
   # Maximum heading depth of generated toc.
@@ -225,7 +219,6 @@ chat:
   #service: tidio
   icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
-
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -251,33 +244,38 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
-  separated_meta: true
-  item_text_post: true
-  item_text_total: false
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  awl: 4
+  wpm: 275
+  suffix: "min."
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: true
 
-# Reward (Donate)
+# Donate (Sponsor) settings
 # Front-matter variable (unsupport animation).
 reward_settings:
-  # If true, reward will be displayed in every article by default.
+  # If true, a donate button will be displayed in every article by default.
   enable: true
   animation: false
-  # comment: https://paypal.me/monkeySule
+  #comment: Buy me a coffee
 
 reward:
-  #wechatpay: /fragment/wechatpay.png
-  #alipay: /fragment/alipay.png
-  paypal: /fragment/paypalme.jpg
-  #bitcoin: /fragment/bitcoin.png
+  #wechatpay: /images/wechatpay.png
+  #alipay: /images/alipay.png
+  paypal: /images/paypal.png
+  #bitcoin: /images/bitcoin.png
 
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
-#follow_me:
-  #Twitter: https://twitter.com/sule824 || fab fa-twitter
+follow_me:
+  #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /fragment/wechat_channel.jpg || fab fa-weixin
+  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
@@ -295,15 +293,15 @@ related_posts:
 
 # Post edit
 # Easily browse and edit blog source code online.
+
 post_edit:
-  enable: false
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source
-  #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
+  enable: true
+  #url: https://github.com/sule82/sky.monkeyshub.space/tree/master/_posts/ # Link for view source
+  url: https://github.com/sule82/sky.monkeyshub.space/edit/master/source/ # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
 # Available values: left | right | false
 post_navigation: left
-
 
 # ---------------------------------------------------------------
 # Custom Page Settings
@@ -324,12 +322,12 @@ calendar:
   calendar_id: <required> # Your Google account E-Mail
   api_key: <required>
   orderBy: startTime
-  offsetMax: 24 # Time Range
+  showLocation: false
+  offsetMax: 72 # Time Range
   offsetMin: 4 # Time Range
   showDeleted: false
   singleEvents: true
   maxResults: 250
-
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -345,7 +343,7 @@ text_align:
 mobile_layout_economy: false
 
 # Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).
-android_chrome_color: "#E00724"
+android_chrome_color: "#eee"
 
 # Custom Logo (Do not support scheme Mist)
 custom_logo: #/uploads/custom-logo.jpg
@@ -354,21 +352,21 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: default
-    dark: tomorrow-night
+    light: a11y-light
+    dark: a11y-dark
   prism:
     light: prism
     dark: prism-dark
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Available values: default | flat | mac
-    style:
+    style: flat
 
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
   scrollpercent: true
 
@@ -382,12 +380,12 @@ reading_progress:
 
 # Bookmark Support
 bookmark:
-  enable: true
+  enable: false
   # Customize the color of the bookmark.
-  color: "#880000"
+  color: "#222"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
   # If manual, only save it by clicking the bookmark-icon.
-  save: manual
+  save: auto
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
@@ -395,12 +393,11 @@ github_banner:
   permalink: https://github.com/yourname
   title: Follow me on GitHub
 
-
 # ---------------------------------------------------------------
 # Font Settings
 # See: https://theme-next.js.org/docs/theme-settings/#Fonts-Customization
 # ---------------------------------------------------------------
-# Find fonts on Google Fonts (https://www.google.com/fonts)
+# Find fonts on Google Fonts (https://fonts.google.com)
 # All fonts set here will have the following styles:
 #   light | light italic | normal | normal italic | bold | bold italic
 # Be aware that setting too much fonts will cause site running slowly
@@ -429,8 +426,8 @@ font:
   # Font settings for site title (.site-title).
   title:
     external: true
-    family: Bebas Neue
-    size:
+    family:
+    size: Lobster Two
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
@@ -441,13 +438,12 @@ font:
   # Font settings for posts (.post-body).
   posts:
     external: true
-    family: Josefin Sans
+    family: Fira Sans
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: Inconsolata
-
+    family: Source Code Pro
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -482,7 +478,6 @@ baidu_site_verification:
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: false
 
-
 # ---------------------------------------------------------------
 # Third Party Plugins & Services Settings
 # See: https://theme-next.js.org/docs/third-party-services/
@@ -510,7 +505,7 @@ math:
 
 # Easily enable fast Ajax navigation on your website.
 # For more information: https://github.com/next-theme/pjax
-pjax: true
+pjax: false
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox
@@ -538,8 +533,8 @@ quicklink:
 
   # Home page and archive page can be controlled through home and archive options below.
   # This configuration item is independent of `enable`.
-  home: true
-  archive: true
+  home: false
+  archive: false
 
   # Default (true) will initialize quicklink after the load event fires.
   delay: true
@@ -551,7 +546,6 @@ quicklink:
   # For more flexibility you can add some patterns (RegExp, Function, or Array) to ignores.
   # See: https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns
   ignores:
-
 
 # ---------------------------------------------------------------
 # Comments Settings
@@ -580,8 +574,8 @@ comments:
 # Disqus
 disqus:
   enable: false
-  shortname: moonkeyshub
-  count: false
+  shortname:
+  count: true
   #post_meta_order: 0
 
 # DisqusJS
@@ -641,7 +635,6 @@ gitalk:
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
   language:
 
-
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
 # See: https://theme-next.js.org/docs/third-party-services/post-widgets
@@ -651,13 +644,12 @@ gitalk:
 # To get your ID visit https://widgetpack.com
 rating:
   enable: true
-  id:     26035
-  color:  fc6423
+  id: 26035
+  color: fc6423
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
 add_this_id:
-
 
 # ---------------------------------------------------------------
 # Statistics and Analytics
@@ -707,14 +699,13 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: true
+  enable: false
   total_visitors: true
-  total_visitors_icon: fa fa-user-tie
+  total_visitors_icon: fa fa-user
   total_views: true
-  total_views_icon: fa fa-user-secret
+  total_views_icon: fa fa-eye
   post_views: true
-  post_views_icon: fa fa-user-ninja
-
+  post_views_icon: fa fa-eye
 
 # ---------------------------------------------------------------
 # Search Services
@@ -749,7 +740,6 @@ local_search:
 # Swiftype Search API Key
 swiftype_key:
 
-
 # ---------------------------------------------------------------
 # Chat Services
 # See: https://theme-next.js.org/docs/third-party-services/chat-services
@@ -771,7 +761,6 @@ tidio:
   enable: false
   key: # Public Key, get it from dashboard. See: https://www.tidiochat.com/panel/settings/developer
 
-
 # ---------------------------------------------------------------
 # Tags Settings
 # See: https://theme-next.js.org/docs/tag-plugins/
@@ -784,22 +773,22 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: simple
-  icons: false
+  style: flat
+  icons: true
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
   # Offset also applied to label tag variables. This option can work with disabled note tag.
-  light_bg_offset: 0
+  light_bg_offset: -8
 
 # Tabs tag
 tabs:
   transition:
-    tabs: true
+    tabs: false
     labels: true
 
 # PDF tag
 # NexT will try to load pdf files natively, if failed, pdf.js will be used.
 # So, you have to install the dependency of pdf.js if you want to use pdf tag and make it available to all browsers.
-# See: https://github.com/next-theme/theme-next-pdf
+# Dependencies: https://github.com/next-theme/theme-next-pdf
 pdf:
   enable: false
   # Default height
@@ -810,7 +799,6 @@ mermaid:
   enable: false
   # Available themes: default | dark | forest | neutral
   theme: forest
-
 
 # ---------------------------------------------------------------
 # Animation Settings
@@ -823,29 +811,21 @@ motion:
   async: false
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
-    post_block: fadeIn
-    post_header: fadeInDown
-    post_body: fadeInDown
-    coll_header: fadeInLeft
+    post_block: bounceInUp
+    post_header: rubberBand
+    post_body: bounceIn
+    coll_header: shake
     # Only for Pisces | Gemini.
-    sidebar: fadeInUp
+    sidebar: bounceInDown
 
 # Progress bar in the top during page loading.
 # For more information: https://github.com/HubSpot/pace
 pace:
-  enable: false
+  enable: true
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: minimal
-
-# JavaScript 3D library.
-# Dependencies: https://github.com/next-theme/theme-next-three
-three:
-  enable: false
-  three_waves: false
-  canvas_lines: false
-  canvas_sphere: false
+  theme: big-counter
 
 # Canvas ribbon
 # For more information: https://github.com/hustcc/ribbon.js
@@ -854,7 +834,6 @@ canvas_ribbon:
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
-
 
 #! ==============================================================
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -907,7 +886,7 @@ vendors:
 
   # Recommended version: 0.4.0
   # pjax: //cdn.jsdelivr.net/gh/next-theme/pjax@0/pjax.min.js
-  pjax: //cdn.jsdelivr.net/gh/next-theme/pjax@0/pjax.min.js
+  pjax:
 
   # FancyBox
   # jquery: //unpkg.com/jquery@3/dist/jquery.min.js
@@ -976,18 +955,8 @@ vendors:
   # pace: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js
   # pace_css: //unpkg.com/pace-js@1/themes/blue/pace-theme-minimal.min.css
   # pace_css: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-minimal.min.css
-  pace:
-  pace_css:
-
-  # JavaScript 3D library
-  # three: //unpkg.com/three@0/build/three.min.js
-  # three_waves: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/three-waves.min.js
-  # canvas_lines: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/canvas_lines.min.js
-  # canvas_sphere: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/canvas_sphere.min.js
-  three:
-  three_waves:
-  canvas_lines:
-  canvas_sphere:
+  pace: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js
+  pace_css: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-big-counter.min.css
 
   # Canvas ribbon
   # canvas_ribbon: //unpkg.com/ribbon.js@1/dist/ribbon.min.js
