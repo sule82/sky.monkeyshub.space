@@ -38,4 +38,5 @@ Par [skilova](https://en.wikipedia.org/wiki/Skill) <span role="img" aria-label="
 <div class="text-centar">
 {% btn /highlight, highlight.js, fa fa-fill-drip fa-fw, pregled %}
 {% btn /animate, animate.js, fa fa-film fa-fw, pregled %}
+{% btn https://static.monkeyshub.space/apps/hashbin/#CYJw9gDgQg8gGgKAI4QOwGMAuBXAdgNiUwFZcBOYfBAZhAFsBPTAUwGd86BrAK2tyTpA, #, fa fa-hashtag fa-fw, base64 %}
 </div>
